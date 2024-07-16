@@ -7,7 +7,7 @@ import Layout from './Layout.jsx'
 // import Home from './components/HomeSecond/Home.jsx'
 import Login from './components/account/Login.jsx'
 import Register from './components/account/Register.jsx'
-import Logout from './components/account/Logout.jsx'
+//import Logout from './components/account/Logout.jsx'
 import Cart from './components/Cart/Cart.jsx'
 import Shop from './components/Shop/Shop.jsx'
 import Home from './components/Home/Home.jsx'
@@ -20,7 +20,7 @@ const router = createBrowserRouter(
       <Route path='/shop' element={<Shop />}/>
       <Route path='login' element={<Login />} />
       <Route path='register' element={<Register />} />
-      <Route path='logout' element={<Logout />} />
+     // <Route path='logout' element={<Logout />} />
       <Route path='cart' element={<Cart />} />
       {/* <Route path='shop' element={<Shop />} /> */}
     </Route>
